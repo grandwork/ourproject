@@ -1,0 +1,35 @@
+<h1>Edit charge</h1>
+
+<form id="edit-charge" name="charge">
+  <div class="field">
+    <label for="created"> created:</label>
+    <input type="text" name="created" id="created" value="<%= created %>" >
+  </div>
+
+  <div class="field">
+    <label for="paid"> paid:</label>
+    <input type="text" name="paid" id="paid" value="<%= paid %>" >
+  </div>
+
+  <div class="field">
+    <label for="amount"> amount:</label>
+    <input type="text" name="amount" id="amount" value="<%= amount %>" >
+  </div>
+
+  <div class="field">
+    <label for="currency"> currency:</label>
+    <input type="text" name="currency" id="currency" value="<%= currency %>" >
+  </div>
+
+  <div class="field">
+    <label for="refunded"> refunded:</label>
+    <input type="text" name="refunded" id="refunded" value="<%= refunded %>" >
+  </div>
+
+  <div class="actions">
+    <input type="submit" value="Update Charge" />
+  </div>
+
+</form>
+
+<a href="#/index">Back</a>
